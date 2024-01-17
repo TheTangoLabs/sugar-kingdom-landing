@@ -1,0 +1,12 @@
+.sideBar_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 8rem;
+	border: 2px solid white
+}

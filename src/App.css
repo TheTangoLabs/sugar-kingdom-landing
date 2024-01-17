@@ -1,0 +1,11 @@
+.main_container{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+}
+
+@media (max-width: 768px) {
+  /* Estilos que se aplicarán solo en pantallas con ancho menor a 768px */
+  /* Agrega tus estilos específicos aquí */
+}

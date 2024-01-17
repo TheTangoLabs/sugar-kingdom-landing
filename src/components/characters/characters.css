@@ -1,0 +1,10 @@
+.characters {
+	margin-left: 10rem;
+	width: 60%;
+	height: 20rem;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	border: 2px solid red;
+	display: flex;
+}
