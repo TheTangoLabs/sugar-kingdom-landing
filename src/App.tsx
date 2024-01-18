@@ -1,10 +1,10 @@
 import './App.css';
 import { useState } from 'react';
-import LandingMobile from './pages/LandingMobile/LandingMobile';
-import LandingWeb from './pages/LandingWeb/LandingWeb';
+import LandingMobile from './pages/landingMobile/landingMobile';
+import LandingWeb from './pages/landingWeb/landingWeb';
 
 function App() {
-	const [isDesktop] = useState(window.innerWidth > 800);
+	const [isDesktop] = useState(window.innerWidth > 768);
 	
 	console.log(isDesktop)
 

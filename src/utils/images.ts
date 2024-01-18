@@ -3,8 +3,9 @@ import background_web from '../assets/background/SKOweb-Homepage_construction_bg
 import background_mobile from '../assets/background/SKOweb-Homepage_construction_mobile_bg.webp';
 
 // characters
-import character_off from '../assets/characters/CHARACTERS_OFF.webp';
-import character_hover from '../assets/characters/CHARACTERS_HOVER.webp';
+import character_off from '../assets/characters/Character_off.svg';
+import character_hover from '../assets/characters/Character_hover.svg';
+import character_mobile from '../assets/characters/Character_mobile.svg'
 
 // icons
 import discord_off from '../assets/social/DISCORD-BTN_OFF.png';
@@ -18,7 +19,7 @@ import twitter_hover from '../assets/social/X-BTN_HOVER.png';
 import a_side_web from '../assets/components/SKOweb-Sidebar_bg.webp';
 import a_side_mobile from '../assets/components/SKOweb-Sidebar_bg_movile.png';
 import header_web from '../assets/components/HEADER.webp';
-import header_mobile from '../assets/components/Header_movile.png';
+import header_mobile from '../assets/components/Header_mobile.svg';
 import logo_header from '../assets/components/SKOweb-Logo_small.webp';
 
 // text
@@ -38,6 +39,9 @@ characterOffImg.src = character_off;
 
 const characterHoverImg = new Image();
 characterHoverImg.src = character_hover;
+
+const characterMobileImg = new Image();
+characterMobileImg.src = character_mobile;
 
 // icons
 const discordOffImg = new Image();
@@ -88,7 +92,8 @@ export const images = {
 	},
 	characters: {
 		off: characterOffImg.src,
-		hover: characterHoverImg.src
+		hover: characterHoverImg.src,
+		mobile: characterMobileImg.src
 	},
 	icons: {
 		discordOff: discordOffImg.src,
@@ -108,6 +113,6 @@ export const images = {
 	},
 	text: {
 		web: textWebImg.src,
-		mobile: textMobileImg
+		mobile: textMobileImg.src
 	}
 }

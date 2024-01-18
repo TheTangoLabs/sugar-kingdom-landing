@@ -7,3 +7,11 @@
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+
+@media (max-width: 768px) {
+  /* Estilos que se aplicarán solo en pantallas con ancho menor a 768px */
+  /* Agrega tus estilos específicos aquí */
+  .text{
+	margin-bottom: 0rem;
+  }
+}

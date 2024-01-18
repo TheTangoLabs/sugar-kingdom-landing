@@ -12,6 +12,19 @@
 	/* border: 2px solid white; */
 }
 
+.sideBar_mobile_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	background-position: bottom;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 8rem;
+	width: 100%;
+	/* border: 2px solid white; */
+}
+
 .social_button {
 	height: 5rem;
 	width: 5rem;
@@ -19,4 +32,12 @@
 	background-repeat: no-repeat;
 	background-size: contain;
 	margin-left: 1rem;
+}
+
+@media (max-width: 768px) {
+  /* Estilos que se aplicarán solo en pantallas con ancho menor a 768px */
+  /* Agrega tus estilos específicos aquí */
+  .social_button{
+	margin-left: 0;
+  }
 }

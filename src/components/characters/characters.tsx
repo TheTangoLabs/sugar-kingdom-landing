@@ -3,7 +3,7 @@ import { images } from '../../utils/images'
 import { useState } from 'react'
 
 export default function Characters() {
-	const [hover, setHover] = useState(true)
+	const [hover, setHover] = useState(true);
 
 	const image = hover ? `${images.characters.off}` : `${images.characters.hover}`
 

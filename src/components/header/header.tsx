@@ -1,10 +1,10 @@
-// import Image from "next/image"
-// import logo_small from '../../../public/SKOweb-Logo_small.webp'
+import { images } from "../../utils/images";
+import './header.css';
 
-// export default function Header() {
-// 	return (
-// 		<header className="absolute z-10 h-20 w-full bg-cover bg-no-repeat bg-[url('../../public/assets/components/Header_movile.png')] md:bg-[url('../../public/HEADER.webp')] pl-8 pt-3">
-// 			<Image src={logo_small} width={200} height={200} alt='logo de sugarkingdom'/>
-// 		</header>
-// 	)
-// }
+export default function Header() {
+	return (
+		<header className="header_container" style={{backgroundImage:`url(${images.components.headerWeb})`}}>
+			<img src={images.components.logo} alt='logo de sugarkingdom' style={{ marginTop: '0.75rem', marginLeft: '1rem'}}/>
+		</header>
+	)
+}

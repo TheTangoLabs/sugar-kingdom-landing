@@ -9,3 +9,11 @@
 	/* border: 2px solid red; */
 	display: flex;
 }
+
+@media (max-width: 768px) {
+  /* Estilos que se aplicarán solo en pantallas con ancho menor a 768px */
+  /* Agrega tus estilos específicos aquí */
+  .characters{
+	padding-left: 0;
+  }
+}

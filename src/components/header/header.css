@@ -1,0 +1,20 @@
+.header_container {
+	top: 0;
+	position: absolute;
+	z-index: 10;
+	height: 5rem;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+	/* Estilos que se aplicarán solo en pantallas con ancho menor a 768px */
+	/* Agrega tus estilos específicos aquí */
+	.header_container{
+	left: -0.75rem;
+	padding-top: 0.75rem;
+	padding-left: 2rem;
+	position: relative;
+  }
+}
