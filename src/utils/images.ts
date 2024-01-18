@@ -16,15 +16,15 @@ import twitter_off from '../assets/social/X-BTN_OFF.png';
 import twitter_hover from '../assets/social/X-BTN_HOVER.png';
 
 // components
-import a_side_web from '../assets/components/SKOweb-Sidebar_bg.webp';
-import a_side_mobile from '../assets/components/SKOweb-Sidebar_bg_movile.png';
+import a_side_web from '../assets/components/side_bar_web.svg';
+import a_side_mobile from '../assets/components/footer_mobile.svg';
 import header_web from '../assets/components/HEADER.webp';
 import header_mobile from '../assets/components/Header_mobile.svg';
-import logo_header from '../assets/components/SKOweb-Logo_small.webp';
+import logo_header from '../assets/components/HEADER-LOGO.svg';
 
 // text
-import text_web from '../assets/text/SKOweb-Homepage_construction_text.webp';
-import text_mobile from '../assets/text/SKOweb-Homepage_construction_text_mobile.webp';
+import text_web from '../assets/text/text_web.svg';
+import text_mobile from '../assets/text/text_mobile.svg';
 
 // backgrounds
 const backgroundWebImg = new Image();

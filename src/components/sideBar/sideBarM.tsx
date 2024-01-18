@@ -13,7 +13,7 @@ export default function SideBarM() {
 
 	return (
 		<div className="sideBar_mobile_container" style={{ backgroundImage: `url(${images.components.aSideMobile})` }}>
-			<a href='https://t.me/SugarKingdomOfficialChat' target='_blank' rel='noreferrer'>
+			<a href='https://discord.gg/sugar-kingdom' target='_blank' rel='noreferrer'>
 				<div className='social_button'
 					style={{ backgroundImage: `url(${discordImage})` }}
 					onMouseEnter={() => setHoverD(false)}
@@ -27,7 +27,7 @@ export default function SideBarM() {
 					onMouseLeave={() => setHoverT(true)}
 				/>
 			</a>
-			<a href='https://t.me/SugarKingdomOfficialChat' target='_blank' rel='noreferrer'>
+			<a href='https://twitter.com/SugarKingdomNFT' target='_blank' rel='noreferrer'>
 				<div className='social_button'
 					style={{ backgroundImage: `url(${xImage})` }}
 					onMouseEnter={() => setHoverX(false)}

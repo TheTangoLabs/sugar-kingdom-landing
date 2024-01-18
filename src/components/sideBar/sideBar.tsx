@@ -13,7 +13,7 @@ export default function SideBar() {
 
 	return (
 		<div className="sideBar_container" style={{ backgroundImage: `url(${images.components.aSideWeb})` }}>
-			<a href='https://t.me/SugarKingdomOfficialChat' target='_blank' rel='noreferrer'>
+			<a href='https://discord.gg/sugar-kingdom' target='_blank' rel='noreferrer'>
 				<div className='social_button'
 					style={{ backgroundImage: `url(${discordImage})` }}
 					onMouseEnter={() => setHoverD(false)}
