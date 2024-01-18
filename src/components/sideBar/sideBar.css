@@ -1,12 +1,22 @@
 .sideBar_container {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 5rem;
+	gap: 2rem;
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
 	height: 100%;
 	width: 8rem;
-	border: 2px solid white
+	/* border: 2px solid white; */
+}
+
+.social_button {
+	height: 5rem;
+	width: 5rem;
+	background-size: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-left: 1rem;
 }

@@ -1,6 +1,6 @@
 /* h-1/5 w-full mb-10 bg-contain bg-center bg-no-repeat bg-[url('../../public/assets/text/SKOweb-Homepage_construction_text.webp') */
 .text {
-	height: 20%;
+	height: 20vh;
 	width: 100%;
 	margin-bottom: 8rem;
 	background-position: center;
